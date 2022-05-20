@@ -1,0 +1,703 @@
+@media (max-width: 1199px) {
+    .container {
+        width: 90%;
+    }
+
+    header .banner {
+        padding: 25px 0 50px;
+    }
+
+    .feature-section .feature h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    header .banner .banner-content h1 {
+        font-size: 42px;
+        line-height: 60px;
+        max-width: 373px;
+    }
+
+    header .banner .banner-content p {
+        margin: 20px 0 30px;
+    }
+
+    .banner-image-padding-top {
+        padding-top: 30px;
+    }
+
+    .feature-section .feature {
+        padding: 35px 25px;
+    }
+
+    .feature-section .feature img {
+        width: 55px;
+        height: 65px;
+    }
+
+    .feature-section .feature h3 {
+        font-size: 15px;
+    }
+
+    .feature-section .feature p {
+        font-size: 13px;
+    }
+
+    .online-courses .course h3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .online-courses .course span {
+        font-size: 16px;
+    }
+
+    .online-courses .course button {
+        padding: 8px 22px;
+        margin: 10px 0;
+    }
+
+    .online-courses .course {
+        padding: 25px 15px;
+    }
+
+    .online-courses .course ul li i {
+        font-size: 12px;
+    }
+
+    .online-courses .course ul li span {
+        font-size: 12px;
+    }
+
+    .heading {
+        padding: 0px 0 10px;
+    }
+
+    .heading h2 {
+        font-size: 32px;
+    }
+
+    .testimonial {
+        margin: 40px 0 80px;
+    }
+
+    .testimonial .testimonial-image {
+        margin: 0 20px;
+    }
+
+    .testimonial .testimonial-content p {
+        font-size: 13px;
+    }
+
+    footer {
+        padding: 40px 0 15px;
+    }
+
+    footer .footer-column p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    footer .footer-menu strong {
+        font-size: 14px;
+    }
+
+    footer .footer-menu ul li a {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    footer .copyright {
+        margin-top: 30px;
+    }
+
+    footer .copyright p {
+        font-size: 12px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    header .navigation {
+        padding: 20px 0;
+    }
+
+    header .navbar-logo {
+        flex-basis: 20%;
+    }
+
+    header .navbar-menu {
+        flex-basis: 80%;
+    }
+
+    header .navbar-menu ul li a {
+        padding: 5px 15px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    header .banner .banner-content h5 {
+        font-size: 14px;
+    }
+
+    header .banner .banner-content h1 {
+        font-size: 32px;
+        line-height: 40px;
+        max-width: 272px;
+        margin: 10px 0 10px;
+    }
+
+    header .banner .banner-content p {
+        margin: 10px 0 20px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    header .banner .banner-content a {
+        padding: 8px 24px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .banner-image-padding-top {
+        padding-top: 30px;
+    }
+
+    .feature-section {
+        padding: 40px 0;
+    }
+
+    .heading h2 {
+        font-size: 28px;
+    }
+
+    .col-1-4 {
+        padding: 0px 10px;
+    }
+
+    .feature-section .feature {
+        padding: 25px 10px;
+    }
+
+    .feature-section .feature img {
+        width: 45px;
+        height: 55px;
+    }
+
+    .feature-section .feature h3 {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .feature-section .feature p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .col-1-3 {
+        padding: 10px;
+    }
+
+    .online-courses .course {
+        padding: 15px 10px;
+    }
+
+    .online-courses .course h3 {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 0;
+    }
+
+    .online-courses .course span {
+        font-size: 14px;
+    }
+
+    .online-courses .course button {
+        padding: 8px 16px;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .online-courses .course ul li i {
+        font-size: 10px;
+    }
+
+    .online-courses .course ul li span {
+        font-size: 10px;
+    }
+
+    .fa-user-friends {
+        padding-left: 3px;
+    }
+
+    .testimonial {
+        margin: 40px 0 50px;
+    }
+
+    .testimonial .testimonial-image img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .testimonial .testimonial-content {
+        flex-basis: 65%;
+    }
+
+}
+
+@media (max-width: 575px) {
+    header .navigation {
+        padding: 15px 0;
+    }
+
+    header .navbar-menu ul li a {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+
+    header .banner {
+        padding: 20px 0 40px;
+    }
+
+    header .banner .banner-content h1 {
+        font-size: 25px;
+        line-height: 35px;
+        max-width: 222px;
+    }
+
+    header .banner .banner-content p {
+        margin: 10px 0 15px;
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    header .banner .banner-content a {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+
+    .feature-section {
+        padding: 30px 0;
+    }
+
+    .col-1-4 {
+        padding: 0px 5px;
+    }
+
+    .feature-section .feature {
+        padding: 15px 8px;
+    }
+
+    .feature-section .feature img {
+        width: 35px;
+        height: 40px;
+    }
+
+    .feature-section .feature h3 {
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .feature-section .feature p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .heading h2 {
+        font-size: 24px;
+    }
+
+    .col-1-3 {
+        padding: 7px;
+    }
+
+    .online-courses .course {
+        padding: 10px 10px;
+    }
+
+    .online-courses .course h3 {
+        font-size: 12px;
+    }
+
+    .online-courses .course span {
+        font-size: 10px;
+    }
+
+    .online-courses .course button {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .fa-user-friends {
+        padding-left: 1px;
+    }
+
+    .testimonial {
+        margin: 35px 0 40px;
+    }
+
+    .testimonial .testimonial-image img {
+        width: 100px;
+        height: 90px;
+        border-radius: 50%;
+    }
+
+    .testimonial .testimonial-content {
+        flex-basis: 70%;
+    }
+
+    .testimonial .testimonial-content p {
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 30px 0 5px;
+    }
+
+    footer .footer-column p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    footer .footer-menu ul li a {
+        font-size: 10px;
+        line-height: 0px;
+    }
+
+    footer .footer-menu ul {
+        margin-top: 0;
+    }
+
+    footer .copyright {
+        margin-top: 20px;
+    }
+
+    footer .copyright p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 415px) {
+    header .navbar-logo {
+        flex-basis: 50%;
+        margin: auto;
+    }
+
+    header .navbar-menu {
+        flex-basis: 100%;
+    }
+
+    header .navbar-menu ul {
+        justify-content: center;
+    }
+
+    header .navbar-menu ul li a {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    .flex-direction-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .banner-image-padding-top {
+        padding-top: 10px;
+    }
+
+    header .banner .banner-content {
+        padding-top: 30px;
+    }
+
+    header .banner .banner-content h5 {
+        font-size: 15px;
+        padding-bottom: 10px;
+        margin-left: 52px;
+    }
+
+    header .banner .banner-content h1 {
+        font-size: 32px;
+        line-height: 40px;
+        max-width: 270px;
+        margin: auto;
+    }
+
+    header .banner .banner-content p {
+        margin: 10px 10px 10px 52px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    header .banner .banner-content a {
+        padding: 12px 20px;
+        font-size: 16px;
+        margin: 0 119px 0;
+    }
+
+    .feature-section {
+        padding: 20px 0;
+    }
+
+    .col-1-4 {
+        flex-basis: 50%;
+        padding: 10px 10px;
+    }
+
+    .feature-section .feature {
+        padding: 30px 20px;
+    }
+
+    .feature-section .feature img {
+        width: 45px;
+        height: 55px;
+    }
+
+    .feature-section .feature h3 {
+        font-size: 15px;
+    }
+
+    .feature-section .feature p {
+        font-size: 12px;
+    }
+
+    .col-1-3 {
+        flex-basis: 100%;
+    }
+
+    .online-courses .course {
+        padding: 20px 20px;
+    }
+
+    .online-courses .course h3 {
+        font-size: 20px;
+    }
+
+    .online-courses .course span {
+        font-size: 15px;
+    }
+
+    .online-courses .course button {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
+
+    .online-courses .course ul li i {
+        font-size: 16px;
+    }
+
+    .online-courses .course ul li span {
+        font-size: 16px;
+    }
+
+    .testimonial .testimonial-image img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .testimonial .testimonial-image {
+        flex-basis: 100%;
+    }
+
+    .testimonial .testimonial-content {
+        flex-basis: 100%;
+    }
+
+    .testimonial .testimonial-content p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .testimonial .testimonial-image {
+        margin: 0px 137px;
+    }
+
+    footer .footer-column {
+        flex-basis: 65%;
+        padding-bottom: 20px;
+        margin: auto;
+    }
+
+    footer .footer-column p {
+        font-size: 12px;
+    }
+
+    footer .footer-menus {
+        flex-basis: 100%;
+    }
+
+    footer .footer-menu strong {
+        font-size: 16px;
+    }
+
+    footer .footer-menu ul {
+        margin-top: 5px;
+    }
+
+    footer .footer-menu ul li a {
+        font-size: 12px;
+    }
+
+    footer .copyright p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 95%;
+    }
+
+    header .navbar-menu {
+        flex-basis: 100%;
+        padding-top: 20px;
+    }
+
+    header .navbar-menu ul li a {
+        padding: 5px 10px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    header .banner .banner-content h5 {
+        margin-left: 55px;
+    }
+
+    header .banner .banner-content p {
+        margin: 10px 10px 10px 55px;
+    }
+
+    header .banner .banner-content a {
+        margin: 0 105px 0;
+    }
+
+    .testimonial .testimonial-content {
+        flex-basis: 100%;
+        margin: 0 20px;
+    }
+
+    .col-1-3 {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    .container {
+        width: 95%;
+    }
+
+    header .navbar-menu {
+        flex-basis: 100%;
+        padding-top: 20px;
+    }
+
+    header .navbar-menu ul li a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    header .banner .banner-content h5 {
+        margin-left: 46px;
+    }
+
+    header .banner .banner-content p {
+        margin: 10px 10px 10px 46px;
+    }
+
+    header .banner .banner-content a {
+        margin: 0 105px 0;
+    }
+
+}
+
+@media (max-width: 370px) {
+    .container {
+        width: 95%;
+    }
+
+    /* header .navbar-menu {
+        flex-basis: 100%;
+        padding-top: 20px;
+    } */
+
+    header .navbar-menu ul li a {
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    header .banner .banner-content h5 {
+        margin-left: 30px;
+    }
+
+    header .banner .banner-content p {
+        margin: 10px 10px 10px 30px;
+    }
+
+    header .banner .banner-content a {
+        margin: 0 94px 0;
+    }
+
+    .feature-section .feature h3 {
+        font-size: 12px;
+    }
+
+
+    .online-courses .course ul li i {
+        font-size: 12px;
+    }
+
+    .online-courses .course ul li span {
+        font-size: 12px;
+    }
+
+    .testimonial .testimonial-image {
+        margin: 0px 115px;
+    }
+
+    .testimonial .testimonial-content {
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .container {
+        width: 95%;
+    }
+
+
+    header .navbar-menu ul li a {
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    header .banner .banner-content h5 {
+        margin-left: 30px;
+    }
+
+    header .banner .banner-content p {
+        margin: 10px 10px 10px 30px;
+    }
+
+    header .banner .banner-content a {
+        margin: 0 94px 0;
+    }
+
+    .feature-section .feature h3 {
+        font-size: 13px;
+    }
+
+    .online-courses .course ul li i {
+        font-size: 12px;
+    }
+
+    .online-courses .course ul li span {
+        font-size: 12px;
+    }
+
+    .testimonial .testimonial-image {
+        margin: 0px 115px;
+    }
+
+}

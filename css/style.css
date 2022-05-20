@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1-2 {
+    flex-basis: 50%;
+}
+
+.col-1-4 {
+    flex-basis: 25%;
+    padding: 0 15px;
+}
+
+.col-1-3 {
+    flex-basis: 33.33%;
+    padding: 15px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+    padding: 30px 0 23px;
+}
+
+.heading h2 {
+    font-size: 36px;
+    color: #413960;
+}
+
+
+header {
+    background-color: #F0FFF0;
+}
+
+header .navigation {
+    padding: 30px 0;
+}
+
+header .navbar-logo {
+    flex-basis: 20%;
+}
+
+header .navbar-logo img {}
+
+header .navbar-menu {
+    flex-basis: 80%;
+    /* justify-content: flex-end; */
+}
+
+header .navbar-menu ul {
+    justify-content: flex-end;
+    list-style: none;
+    /* text-decoration: none; */
+}
+
+header .navbar-menu ul li {
+    margin-right: 2px;
+}
+
+header .navbar-menu ul li a {
+    text-decoration: none;
+    padding: 10px 26px;
+    font-weight: 400;
+    color: #56548C;
+    border-radius: 33px;
+    transition: .5s;
+}
+
+header .navbar-menu ul li:last-child a {
+    background-color: #21B573;
+    color: #fff;
+    border: 1px solid #21B573;
+}
+
+
+header .navbar-menu ul li:last-child a:hover {
+    background-color: #fff;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+
+header .navbar-menu ul li a:hover {
+    background-color: #21B573;
+    color: #fff;
+    border-radius: 33px;
+}
+
+
+header .banner {
+    padding: 70px 0;
+}
+
+header .banner .banner-content {}
+
+header .banner .banner-content h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #FD511A;
+}
+
+header .banner .banner-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 70px;
+    max-width: 429px;
+    margin: 15px 0 15px;
+}
+
+header .banner .banner-content h1 span {
+    color: #21B573;
+}
+
+header .banner .banner-content p {
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #6C6B6B;
+    max-width: 408px;
+    margin: 30px 0 40px;
+}
+
+header .banner .banner-content a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #21B573;
+    padding: 12px 36px;
+    border-radius: 33px;
+    text-align: center;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+    display: inline-block;
+}
+
+header .banner .banner-image {}
+
+header .banner .banner-image img {}
+
+
+.feature-section {
+    padding: 50px 0;
+}
+
+.feature-section .feature {
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #f8fffB;
+    transition: .5s;
+}
+
+.feature-section .feature:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.feature-section .feature img {
+    width: 66px;
+    height: 75px;
+}
+
+.feature-section .feature h3 {
+    /* padding: 20px 0 10px; */
+    color: #413960;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.feature-section .feature p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.online-courses {}
+
+/* .online-courses .heading {
+    text-align: center;
+    padding: 30px 0 23px;
+}
+
+.online-courses .heading h2 {
+    font-size: 36px;
+    color: #413960;
+} */
+
+.online-courses {}
+
+.online-courses {}
+
+.online-courses .course {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 25px 20px;
+    transition: 1s;
+}
+
+.online-courses .course:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.online-courses .col-1-3 .course img {
+    border-radius: 11px;
+}
+
+.online-courses .course h3 {
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 0 0;
+}
+
+.online-courses .course span {
+    display: block;
+    /* padding: 0 0 10px; */
+    color: #585859;
+}
+
+.online-courses .course button {
+    /* margin-top: 10px; */
+    padding: 8px 28px;
+    background: #21B573;
+    border-radius: 33px;
+    /* text-decoration: none; */
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+
+.online-courses .course ul {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.online-courses .course ul li {}
+
+.online-courses .course ul li i {
+    /* background: #585859; */
+    color: #585859;
+    font-size: 16px;
+}
+
+.online-courses .course ul li span {
+    font-size: 16px;
+    display: inline-block;
+}
+
+
+.testimonial {
+    /* margin-top: 30px; */
+    margin: 40px 0 100px;
+}
+
+.testimonial .heading {}
+
+.testimonial .heading h2 {}
+
+.testimonial .testimonial-image {
+    flex-basis: 15%;
+}
+
+.testimonial .testimonial-image img {
+    width: 120px;
+    height: 120px;
+}
+
+.testimonial .testimonial-content {
+    flex-basis: 50%;
+}
+
+.testimonial .testimonial-content p {}
+
+
+footer {
+    background-color: #282531;
+    padding: 65px 0 27px;
+}
+
+footer .footer-column {
+    flex-basis: 36%;
+}
+
+footer .footer-column p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer .footer-menus {
+    flex-basis: 64%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .footer-menu {
+    /* flex-basis: 33.33%; */
+}
+
+footer .footer-menu strong {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+footer .footer-menu ul {
+    list-style: none;
+    margin-top: 7px;
+}
+
+footer .footer-menu ul li {}
+
+footer .footer-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+footer .footer-menu ul li a:hover {}
+
+footer .copyright {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+footer .copyright p {
+    font-size: 16px;
+    font-weight: 100;
+}
